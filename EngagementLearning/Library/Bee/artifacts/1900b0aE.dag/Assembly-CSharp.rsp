@@ -117,8 +117,29 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:MIRROR
+-define:MIRROR_57_0_OR_NEWER
+-define:MIRROR_58_0_OR_NEWER
+-define:MIRROR_65_0_OR_NEWER
+-define:MIRROR_66_0_OR_NEWER
+-define:MIRROR_2022_9_OR_NEWER
+-define:MIRROR_2022_10_OR_NEWER
+-define:MIRROR_70_0_OR_NEWER
+-define:MIRROR_71_0_OR_NEWER
+-define:MIRROR_73_OR_NEWER
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll"
+-r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll"
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"C:/GameJam2023/Gamejam_2023/EngagementLearning/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/GameJam2023/Gamejam_2023/EngagementLearning/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/GameJam2023/Gamejam_2023/EngagementLearning/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -325,6 +346,28 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/kcp2k.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MiddlewareTransport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Authenticators.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.CompilerSymbols.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Components.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Examples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Transports.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MultiplexTransport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonChat.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonRealtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SimpleWebTransport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Telepathy.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
@@ -355,14 +398,21 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Samples.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Samples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Oculus.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Oculus.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.MetaQuestSupport.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.ref.dll"
@@ -381,9 +431,24 @@
 "Assets/audiotrigger_once.cs"
 "Assets/getnumber.cs"
 "Assets/JoriksFolder/EndGame.cs"
-"Assets/JoriksFolder/JorikScripts/TimeManager.cs"
-"Assets/JoriksFolder/JorikScripts/UIManager.cs"
+"Assets/JoriksFolder/JorikScripts/Launcher.cs"
+"Assets/JoriksFolder/Timer.cs"
+"Assets/NetworkController.cs"
 "Assets/Nick's Folder/Scripts/NAudioTrigger.cs"
+"Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
+"Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
+"Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
+"Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
+"Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
+"Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
+"Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionAssetEnabler.cs"
 "Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToAxis.cs"
 "Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToButton.cs"
@@ -408,11 +473,6 @@
 "Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/Scripts/ObjectResetPlane.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/Scripts/PokeGestureDetector.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.0/Meta Gaze Adapter/Runtime/Scripts/OculusEyeGazeInputAdapter.cs"
-"Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/ActionBasedControllerManager.cs"
-"Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/DynamicMoveProvider.cs"
-"Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/GazeInputManager.cs"
-"Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/PokeStation/IncrementUIText.cs"
-"Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/Scripts/XRPokeFollowAffordance.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.0/XR Device Simulator/Scripts/XRDeviceSimulatorControllerUI.cs"
 "Assets/Samples/XR Interaction Toolkit/2.3.0/XR Device Simulator/Scripts/XRDeviceSimulatorUI.cs"
 "Assets/Scripts/changecolor.cs"
@@ -425,7 +485,6 @@
 "Assets/Scripts/PhoneInteraction.cs"
 "Assets/Scripts/runAfterBall.cs"
 "Assets/Scripts/test.cs"
-"Assets/Smartphone/PhoneInteractions.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
